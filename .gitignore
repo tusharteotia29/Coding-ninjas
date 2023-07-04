@@ -1,6 +1,8 @@
 .metadata
 *.json
 *.md
+*.classpath
+
 #*.pdf
 # Compiled class file
 *.class
