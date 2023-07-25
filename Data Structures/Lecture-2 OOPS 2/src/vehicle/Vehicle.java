@@ -5,7 +5,8 @@ public class Vehicle {
     protected String color;
     private int maxspeed;
 
-    public Vehicle(){
+    public Vehicle(int maxspeed){
+        this.maxspeed=maxspeed;
         System.out.println("vehicle constructor");
 
     }

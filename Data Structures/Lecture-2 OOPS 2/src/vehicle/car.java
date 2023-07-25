@@ -7,7 +7,9 @@ public class car extends Vehicle {
     int numgears;
     boolean convertible;
 
-    public car(){
+    public car(int numgears,int maxspeed){
+        super(maxspeed);
+        this.numgears=numgears;
         System.out.println("car constructor");
 
     }
