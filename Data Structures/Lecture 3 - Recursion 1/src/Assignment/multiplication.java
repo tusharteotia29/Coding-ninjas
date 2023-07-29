@@ -17,11 +17,13 @@
 // 32
 
 
-public class Calculatepower {
+package Assignment;
+
+public class multiplication {
 
     public static int power(int x, int n) {
-
-        if (n==0) {
+		
+		 if (n==0) {
             return 1;
             
         }
@@ -32,13 +34,13 @@ public class Calculatepower {
 
         return output;
 
-    }
-
+		 
+		
+	}
+    
     public static void main(String[] args) {
 
-        int x=power(2, 4);
-        System.out.println(x);
+        System.out.println(power(2, 6));
         
     }
-    
 }
