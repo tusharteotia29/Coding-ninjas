@@ -40,6 +40,15 @@ public class towerhanoi {
         tower_hanoi(disks-1, source, destination, helper);
         System.out.println(source+" "+destination);
         tower_hanoi(disks-1, helper, source,destination );
+
+        /* if (disks == 0) {
+            return;
+        }
+        towerOfHanoi(disks - 1, source, destination, helper);
+        System.out.println(source + " " + destination);
+        towerOfHanoi(disks - 1, helper, source, destination);
+
+	} */
     }
 
     public static void main(String[] args) {
