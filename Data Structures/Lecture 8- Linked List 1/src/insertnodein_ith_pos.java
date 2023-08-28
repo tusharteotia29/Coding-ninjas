@@ -21,7 +21,7 @@ public class insertnodein_ith_pos {
     
     public static void main(String[] args) {
 
-        node<Integer> head=taekinput();
+        node<Integer> head=takeinput();
         head=insert(head, 80, 0);
         print();
         

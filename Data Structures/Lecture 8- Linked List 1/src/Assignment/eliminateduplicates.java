@@ -1,3 +1,4 @@
+package Assignment;
 /*Eliminate Duplicates
 Send Feedback
 You have been given a singly linked list of integers where the elements are sorted in ascending order. Write a function that removes the consecutive duplicate values such that the given list only contains unique elements and returns the head to the updated list.
@@ -29,6 +30,7 @@ Sample Input 2 :
 Sample Output 2 :
 10 20 30 40 50
 10*/
+
 public class eliminateduplicates {
 
     public static Node<Integer> removeDuplicates(Node<Integer> head) {

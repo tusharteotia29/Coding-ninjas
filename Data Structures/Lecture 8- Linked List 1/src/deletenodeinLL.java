@@ -49,6 +49,8 @@ Sample Output 2 :
 4 5 2 6 1 9
 10 20 30 40 50 60 */
 
+import Assignment.Node;
+
 public class deletenodeinLL {
 
     public static Node<Integer> deleteNode( Node<Integer> head, int pos) {
